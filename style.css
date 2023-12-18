@@ -125,3 +125,8 @@ a {
 a:hover {
   color: #f77f00;
 }
+
+.resize-image img {
+    width: 50%; /* Resize to half of its original size */
+    height: auto; /* Maintain the aspect ratio */
+}
