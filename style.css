@@ -18,6 +18,31 @@ header, footer {
 h1, h2, h3 {
   font-family: "Playfair Display", Times, serif;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #003049;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+nav a:hover {
+    color: #f77f00;
+}
 
 /* About Section Styles */
 #about h1 {
